@@ -1,0 +1,63 @@
+* {
+    background-color: burlywood;
+}
+
+p {
+    color: red;
+}
+
+.header {
+    color: brown;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.recipes {
+    text-align: center;
+    padding-top: 10%;
+}
+
+div.recipes img {
+    width: 30%;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 25px;
+}
+
+.header.recipe {
+    padding-bottom: 5%;
+}
+
+div.preview.recipe {
+    text-align: center;
+    color:brown
+}
+
+div.preview.recipe img {
+    margin-bottom: -20px;
+    border-style: solid;
+    border-radius: 55px;
+}
+
+.recipe-steps li {
+    font-size: 18px;
+    max-width: 55%;
+}
+
+.ingredients {
+    padding-top: 25px;
+}
+
+.steps {
+    padding-bottom: 15px;
+}
+
+.ingredients,
+.steps {
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
